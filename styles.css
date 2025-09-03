@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #000000;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+.logo {
+    width: 300px;
+    max-width: 40%;
+    height: auto;
+}
+
+.container-buttons {
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+button {
+    background-color: #993399;
+    border: none;
+    border-radius: 5px;
+    color: #000000;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 110px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+ul {
+    margin-top: 30px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    gap: 20px;
+    justify-content: center;
+}
+
+li{
+    border: 2px solid #8133ff;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+p{
+    color: #ffffff;
+}
+
+.item-price {
+    font-weight: bold;
+    color: #79cb15;
+}
+
+   
+@media (max-width: 480px) {
+
+
+    .logo {
+        width: 200px;
+        max-width: 70%;
+    }
+
+    .container-buttons {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        width: 100%;
+        max-width: 250px;
+        margin: 20px auto;
+
+    }
+
+    buttom{
+        width: 100%;       
+        min-width: 0;
+        text-align: center;
+        padding: 6px;     
+        box-sizing: border-box;
+    }
+    .show-all  {
+        padding: 6px
+    }
+
+    
+
+    ul {
+     grid-template-columns: 1fr;
+    }
+
+    }
