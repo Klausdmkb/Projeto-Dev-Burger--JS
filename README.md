@@ -51,15 +51,50 @@ Além disso, o projeto utiliza **HTML** e **CSS** para estruturar e estilizar a 
 
 ---
 
-▶️ Como usar
+▶️ Como usar o projeto
+Você pode executar o projeto localmente de forma simples, sem precisar instalar dependências ou configurar servidores. Basta seguir os passos abaixo:
 
-- Abra o arquivo index.html no navegador
+🔧 Requisitos
+Um navegador moderno (como Google Chrome, Firefox, Edge, etc.)
 
-- Navegue pelo cardápio e adicione os itens desejados
+(Opcional) Um editor de código como Visual Studio Code para explorar e modificar os arquivos
 
-- Visualize o resumo do pedido no carrinho
+---
+📦 Passo a passo
 
-- Finalize o pedido e receba a confirmação
+ 1 - Baixar o projeto
+Você tem duas opções:
+
+Via Git (recomendado):
+
+```Bash
+git clone https://github.com/Klausdmkb/Projeto-Dev-Burger--JS.git
+```
+- Via ZIP
+  
+- Clique no botão verde Code no topo do repositório
+
+- Selecione Download ZIP
+
+- Extraia os arquivos em uma pasta local
+
+2 - Abrir o projeto
+Navegue até a pasta onde os arquivos foram salvos
+
+- Dê dois cliques no arquivo index.html
+
+- O navegador abrirá automaticamente a interface do sistema
+---
+
+💡 Dica extra
+Se estiver usando Visual Studio Code, você pode instalar a extensão Live Server para abrir o projeto com recarregamento automático:
+
+Instale a extensão “Live Server”
+
+Clique com o botão direito no index.html
+
+Selecione "Open with Live Server"
+
 
 ---
 
@@ -71,7 +106,7 @@ Além disso, o projeto utiliza **HTML** e **CSS** para estruturar e estilizar a 
 
 -📱 Versão mobile com animações e transições
 
-🗂️ Armazenamento dos pedidos em banco de dados
+-🗂️ Armazenamento dos pedidos em banco de dados
 
 ---
 
